@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter } from 'react-router-dom'
-import Home from './routes/Home/Index.jsx'
-import Produtos from './routes/Produtos/Index.jsx'
-import Error from './routes/Error/Index.jsx'
-import EditarProdutos from './routes/EditarProdutos/Index.jsx'
+import Home from './routes/Home.jsx'
+import Produtos from './routes/Produtos.jsx'
+import Error from './routes/Error.jsx'
+import EditarProdutos from './routes/EditarProdutos.jsx'
 
 const router = createBrowserRouter([
 
   {path: '/', element: <App/>,
-    errorElement: <Error404/>,
+    errorElement: <Error/>,
     children:[
       {path: '/', element: <Home/>}, 
       {path: '/produtos', element: <Produtos/>}, 
