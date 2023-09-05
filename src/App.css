@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -39,4 +39,37 @@
 
 .read-the-docs {
   color: #888;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 80px; /* Altura fixa em pixels */
+  background-color: royalblue;
+}
+
+nav a {
+  color: white;
+  font-size: 1.5em;
+  padding: 15px;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Altura em vh (pode ser mantida se desejado) */
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 50px; /* Altura fixa em pixels */
+  background-color: darkblue;
 }

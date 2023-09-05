@@ -1,6 +1,7 @@
 import './App.css'
 import Menu from './components/Menu'
 import { Outlet } from 'react-router-dom'
+import Rodape from './components/Rodape'
 
 export default function App(){
   return (
@@ -13,6 +14,7 @@ export default function App(){
       <Outlet/>
 
       {/* Aqui teremos o rodapé do nosso site */}
+      <Rodape/>
     </div>
     </>
   )
