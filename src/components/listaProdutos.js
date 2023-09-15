@@ -1,6 +1,4 @@
-export default function ListaProdutos() {
-
-    const listaProdutos = [
+export const listaProdutos = [
         {
             id: 1,
             nome: 'Teclado',
@@ -16,14 +14,4 @@ export default function ListaProdutos() {
             nome: 'Monitor',
             preco: 1200
         }
-    ]
-
-  return (
-    <>
-    
-    <div>ListaProdutos</div>
-
-    </>
-    
-  )
-}
+]
